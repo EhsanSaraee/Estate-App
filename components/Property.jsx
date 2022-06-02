@@ -7,7 +7,7 @@ import { GoVerified } from 'react-icons/go';
 import millify from 'millify';
 import DefaultImage from '@/assets/images/house.jpg';
 
-export const Property = ({
+const Property = ({
    externalID,
    coverPhoto,
    price,
@@ -74,3 +74,5 @@ export const Property = ({
       </Link>
    );
 };
+
+export default Property;
