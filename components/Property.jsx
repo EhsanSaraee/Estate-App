@@ -35,6 +35,8 @@ const Property = ({
                   alt={title}
                   width={400}
                   height={260}
+                  placeholder="blur"
+                  blurDataURL={coverPhoto.url}
                />
             </Box>
             <Box w="full">
